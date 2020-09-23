@@ -1,0 +1,38 @@
+/* #0B3954 - Prussian Blue
+#087E8B - Metallic Seaweed
+#BFD7EA - Beau Blue  
+#FF5A5F - Sizzling Red  
+#C81D25 - Lava  */
+
+body {
+    /* background-color: #0B3954; */
+    background-image: linear-gradient(to right, #BFD7EA, #087E8B, #0B3954);
+}
+
+.page-heading {
+    /* background-color: #0B3954; */
+    background-image: linear-gradient(to left, #BFD7EA, #087E8B, #0B3954);
+    font-family: 'Abril Fatface', serif;
+    color: #FF5A5F
+}
+
+.card {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border: 10px solid black;
+    border-radius: 5px;
+    background-color: #BFD7EA;
+    font-family: 'Playfair Display', serif;
+    color: #087E8B;
+}
+
+.card-link {
+    color: #FF5A5F
+}
+
+.card-title {
+    font-family: 'Abril Fatface', serif;
+    color: #FF5A5F
+    
+}
+
