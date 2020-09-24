@@ -61,3 +61,12 @@ body {
     margin-bottom: 20px;
 }
 
+.artistContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    margin: 10px;
+    
+}
