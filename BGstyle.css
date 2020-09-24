@@ -1,0 +1,72 @@
+/* #0B3954 - Prussian Blue
+#087E8B - Metallic Seaweed
+#BFD7EA - Beau Blue  
+#FF5A5F - Sizzling Red  
+#C81D25 - Lava  */
+
+body {
+    /* background-color: #0B3954; */
+    /* box-sizing: border-box;
+    height: 100%; */
+    background-image: linear-gradient(to right, #BFD7EA, #087E8B, #0B3954);
+}
+
+.md-form.mt-0{
+    width:500px;
+    display:flex;
+    align-items: center;  
+}
+
+.material-icons.mdc-button__icon{
+    position:absolute;
+}
+
+.mdc-button__icon + input{
+    padding-left: 25px;
+}
+
+.page-heading, .container {
+    /* background-color: #0B3954; */
+    background-image: linear-gradient(to left, #BFD7EA, #087E8B, #0B3954);
+    font-family: 'Abril Fatface', serif;
+    color: #FF5A5F;
+    border-radius: 15px;
+}
+
+.card {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border: 10px solid black;
+    border-radius: 5px;
+    background-color: #BFD7EA;
+    font-family: 'Playfair Display', serif;
+    color: #087E8B;
+}
+
+.card-link {
+    color: #FF5A5F;
+}
+
+.card-title {
+    font-family: 'Abril Fatface', serif;
+    color: #FF5A5F;
+    
+}
+
+#search-form {
+    margin-bottom: 20px;
+}
+
+.artistContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    margin: 10px;
+    
+}
