@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="album-page.css">
+    <title>Album</title>
+  </head>
+  <body>
+    <!-- <div id="btn">
+        <div class="center-con">
+            <div class="round">
+                <div id="cta">
+                    <span class="arrow primera next "></span>
+                    <span class="arrow segunda next "></span>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- back button -->
+    <div id="back-btn">
+        <a href="http://"><svg width="2.5em" height="2.5em" viewBox="0 0 16 16" class="bi bi-arrow-left-circle-fill" fill="white" xmlns="http://www.w3.org/2000/svg"  >
+        <path fill-rule="evenodd" d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-4.5.5a.5.5 0 0 0 0-1H5.707l2.147-2.146a.5.5 0 1 0-.708-.708l-3 3a.5.5 0 0 0 0 .708l3 3a.5.5 0 0 0 .708-.708L5.707 8.5H11.5z"/>
+      </svg></a>
+    </div>
+    <!-- Entire card container -->
+    <div class="container">
+        <div class="card shadow-lg p-3 mb-5 bg-white rounded" style="width: 60%;" >
+            <img src="https://img.discogs.com/ZWg2qLjTeyB0VGvxCDtQJsgZnTo=/fit-in/600x600/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-13705989-1559417103-1098.jpeg.jpg" class="card-img-top" alt="... width="400px">
+            <div class="card-body">
+              <h5 class="card-title">Watch The Throne</h5>
+            </div>
+            <div id="description">  
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Track1</li>
+              <li class="list-group-item">Track1</li>
+              <li class="list-group-item">Track1</li>
+            </ul>
+            <div class="card-body">
+              <a href="https://www.amazon.com/s?k=watch+the+throne+cd&crid=16BBCQ2IMH292&sprefix=watch+the+throne+cd%2Caps%2C172&ref=nb_sb_ss_i_1_19" class="card-link"><button id="btn1" type="button" class="btn btn-info">Buy Album</button></a>
+              <a href="https://www.merchbar.com/search?q=kanye" class="card-link"><button id="btn2" type="button" class="btn btn-info">Buy Merch</button></a>
+            </div>
+          </div>
+    </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script>$('.round').click(function(e) {
+        e.preventDefault();
+        e.stopPropagation();
+        $('.arrow').toggleClass('bounceAlpha');
+    });</script>
+  </body>
+</html>
