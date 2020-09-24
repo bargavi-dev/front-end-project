@@ -7,15 +7,70 @@
     <link rel="stylesheet" href="BGstyle.css">
 </head>
 <body>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+    <!-- <div class="md-form mt-0">
+        <i class="material-icons mdc-button__icon">search</i>
+        <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+    </div> -->
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12 header text-center">
+            <h2 class="display-2">Heard That!</h2>
+            <p>Search for music you want to explore.</p>
+            
+            
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 search">
+            <form id="search-form">
+                <div class="input-group input-group-lg">
+                <input
+                    class="form-control search-bar"
+                    placeholder="Search for music..."
+                />
+                <button class="btn btn-primary input-group-btn">
+                    Search
+                </button>
+                </div>
+            </form>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 results">
+            <!-- MOVIES SHOW UP HERE! -->
+            <div class="movies-container row" >
+                <!-- <div class="card movie col-12 col-sm-6 col-lg-4">
+                <img src="" class="card-img-top" alt="">
+                <div class="card-body">
+                    <h5 class="card-title"></h5>
+                    <p class="card-text"></p>
+                    <a href="#" id="add-button" class="btn btn-primary">Add!</a> -->
+                </div>
+                </div>
+                
+                </div>
+            </div>
+            </div>
+        </div>
+        </div>
     <!-- <div id="backBTN">
         <button>Back one</button>
     </div>
     <div id="homeBTN">
         <button>Home Page</button>
     </div> -->
-    <div class="title-type">
+    <!-- <div class="title-type">
         <h1 class="page-heading">All your favorite music genres are here:</h1>
-    </div>
+    </div> -->
     <div class="card" style="width: 18rem;">
         <img class="card-img-top" src="https://images.pexels.com/photos/34071/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" alt="Country Guitar" width="288px">
         <!-- <div class="card-img-overlay"></div> -->
@@ -29,12 +84,14 @@
             <li class="list-group-item">Artists?</li>
         </ul>
         <div class="card-body">
-            <a href="#" class="card-link">Stream Button?</a>
+            <a href="#" id="stream-button" class="btn btn-primary">Stream Now</a>
             <br>
-            <a href="#" class="card-link">Replace with?</a>
+            <a href="#" id="add-button" class="btn btn-primary">Add to Library</a>
+            <br>
+            <a href="#" class="card-link">Merchandise link?</a>
         </div>
     </div>
-    <!-- <div class="card" style="width: 18rem;">
+    <div class="card" style="width: 18rem;">
         <img class="card-img-top" src="https://images.pexels.com/photos/733767/pexels-photo-733767.jpeg?cs=srgb&dl=pexels-victor-freitas-733767.jpg&fm=jpg" alt="Saxophone" width="288px">
         
         <div class="card-body">
@@ -47,11 +104,13 @@
             <li class="list-group-item">Artists?</li>
         </ul>
         <div class="card-body">
-            <a href="#" class="card-link">Stream Button?</a>
+            <a href="#" id="stream-button" class="btn btn-primary">Stream Now</a>
             <br>
-            <a href="#" class="card-link">Replace with?</a>
+            <a href="#" id="add-button" class="btn btn-primary">Add to Library</a>
+            <br>
+            <a href="#" class="card-link">Merchandise link?</a>
         </div>
-    </div> -->
+    </div>
     
 </body>
 </html>

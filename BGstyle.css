@@ -6,17 +6,38 @@
 
 body {
     /* background-color: #0B3954; */
+    /* box-sizing: border-box;
+    height: 100%; */
     background-image: linear-gradient(to right, #BFD7EA, #087E8B, #0B3954);
 }
 
-.page-heading {
+.md-form.mt-0{
+    width:500px;
+    display:flex;
+    align-items: center;  
+}
+
+.material-icons.mdc-button__icon{
+    position:absolute;
+}
+
+.mdc-button__icon + input{
+    padding-left: 25px;
+}
+
+.page-heading, .container {
     /* background-color: #0B3954; */
     background-image: linear-gradient(to left, #BFD7EA, #087E8B, #0B3954);
     font-family: 'Abril Fatface', serif;
-    color: #FF5A5F
+    color: #FF5A5F;
+    border-radius: 15px;
 }
 
 .card {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
     margin-top: 25px;
     margin-bottom: 25px;
     border: 10px solid black;
@@ -27,12 +48,16 @@ body {
 }
 
 .card-link {
-    color: #FF5A5F
+    color: #FF5A5F;
 }
 
 .card-title {
     font-family: 'Abril Fatface', serif;
-    color: #FF5A5F
+    color: #FF5A5F;
     
+}
+
+#search-form {
+    margin-bottom: 20px;
 }
 
