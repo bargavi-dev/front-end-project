@@ -1,11 +1,65 @@
-body {
-    background-image: url("https://images.pexels.com/photos/159472/headphones-instagram-video-games-razer-159472.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
+/* body { */
+    /* box-sizing: border-box;
+    width: 100%;
+    border: solid #C81D25 10px;
+    padding: 5px; */
+    /* background-image: url("https://images.pexels.com/photos/159472/headphones-instagram-video-games-razer-159472.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
     background-size: cover;
     background-repeat: no-repeat;
     background-color: #0B3954;
+    
+
 }
 
-h1 {
+.container {
+    display: flex;
+}
+
+.content-box {
+    box-sizing: content-box;
+}
+
+.mainTitle {
     color: #FF5A5F;
+    justify-content: right;
+}
+
+09/24 above */
+
+
+.demo_wrap {
+    position: relative;
+    background: #087E8B;
+    overflow: hidden;
+}
+.demo_wrap h1 {
+    color: #FF5A5F;
+    padding: 50px;
+    position: relative;
+    z-index: 2;
     text-align: right;
+}
+/* You could use :after - it doesn't really matter */
+.demo_wrap::before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0.6;
+    background: url('https://images.pexels.com/photos/159472/headphones-instagram-video-games-razer-159472.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260') no-repeat center center fixed;
+    /* background-repeat: no-repeat; */
+    background-position: center;
+    /* background-position: 50% 0; */
+    background-size: cover;
+}
+.demo_wrap p {
+    color: #BFD7EA;
+    position: relative;
+    z-index: 2;
+    text-align: right;
+    font-size: 18px;
 }
