@@ -7,20 +7,10 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" href="album-page.css">
+    <link rel="stylesheet" href="album-results.css">
     <title>Album</title>
   </head>
   <body>
-    <!-- <div id="btn">
-        <div class="center-con">
-            <div class="round">
-                <div id="cta">
-                    <span class="arrow primera next "></span>
-                    <span class="arrow segunda next "></span>
-                </div>
-            </div>
-        </div>
-    </div> -->
     <!-- back button -->
     <div id="back-btn">
         <a href="./BrowseGenre.html"><svg width="2.5em" height="2.5em" viewBox="0 0 16 16" class="bi bi-arrow-left-circle-fill" fill="white" xmlns="http://www.w3.org/2000/svg"  >
@@ -28,11 +18,14 @@
       </svg></a>
     </div>
     <!-- Entire card container -->
-    <div id = "main" class="container">
-        
+    <div class="container">
+        <div class="card shadow-lg p-3 mb-5 bg-white rounded" style="width: 60%;" >           
+            <ul id="albumContainer" class="list-group list-group-flush">
+              
+            </ul>
+            </div>
+          </div>
     </div>
-
-
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
@@ -43,6 +36,6 @@
         e.stopPropagation();
         $('.arrow').toggleClass('bounceAlpha');
     });</script>
-    <script src="album-page.js"></script>
+    <script src="./album-results.js"></script>
   </body>
 </html>
