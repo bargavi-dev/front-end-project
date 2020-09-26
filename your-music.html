@@ -5,25 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="dashboard.css"/>
+    <link rel="stylesheet" href="navbar.css"/>
+    <link href="//fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
 </head>
 <body>
  
     
     <!----this is code for the sidebar------>
-    <div id="main">
-      <button class="openbtn" onclick="openNav()">&#9776; Main Menu</button>
-      <h2></h2>
-    </div>
+    <div id="sidebar-placeholder"></div>
 
-  <div id="mySidebar" class="sidebar">
-    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-    <a href="dashboard.html">Home</a>
-    <a href="#">About</a>
-    <a href="#">Browse by Artist</a>
-    <a href="#">Browse by Album</a>
-    <a href="#">Your Music</a>
-    <a href="#">Contact</a>
-  </div>
   <div>
       <h1 class="hero-text-two">Heard that!</h1>
 
@@ -99,5 +89,6 @@
     document.getElementById("main").style.marginLeft= "0";
     }
 </script>
+<script src="navbar.js"></script>
 </body>
 </html>
