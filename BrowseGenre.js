@@ -33,17 +33,23 @@
 function renderMusic(musicData){
     const listofArtists = musicData.map((currentArtist) => {
         let tags = ''
-        if (currentArtist.tags) {
+        if (currentArtist.tags && currentArtist.country) {
                 tags = currentArtist.tags.map(tag=>{
                 return `<span class="badge badge-pill badge-primary">${tag.name}</span>`
             }).join('')
         }else{
             return ''
         }
+
+        // if (currentArtist.country) {
+        //         return `${currentArtist.country}`
+        //     }
+        // else{
+            
+        // }
          
         
-        return `
-        <div class="card results col-3" style="width: 18rem;">
+        return ` <div class="card results col-6" style="width: 18rem;">
         <a href="./album-results.html?id=${currentArtist.id}" >
             <div class="card-body">
                 <h5 class="card-title" data-id="${currentArtist.id}">${currentArtist.name}</h5>

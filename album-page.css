@@ -13,8 +13,8 @@ body {
 }
 .card img {
     margin-top: 7%;
-    height: 45%;
-    width: 70%;
+    max-height: 45%;
+    max-width: 70%;
     align-self: center;
     border-radius: 15px;
     
@@ -34,7 +34,38 @@ body {
  
 }
 
+#download{
+  align-self: flex-end;
+  margin-right: 5%;
+  margin-top: 3%;
+}
 
+.card-body{
+  display: flex;
+}
+
+#d-btn{
+  background-color: rgb(112, 215, 189) !important;
+  border: none;
+  align-self: flex-end;
+  margin-right: 5%;
+  margin-top: 3%;
+}
+
+h5.list-group-item {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 4px;
+}
+
+
+h5{
+  margin: 0 auto;
+  justify-self: center;
+  align-content: center;
+  border: none;
+}
 
 #back-btn{
     padding-right: 2px;

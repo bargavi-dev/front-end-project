@@ -2,7 +2,7 @@
 function renderAlbums(albumData){
     const listofAlbums = albumData.map((currentAlbum) => {
         return `
-        <a href="./album-page.html?id=${currentAlbum.id}"><li class="list-group-item">${currentAlbum.title}</li></a>
+        <a id="albums-listed" href="./album-page.html?id=${currentAlbum.id}"><li class="list-group-item">${currentAlbum.title}</li></a>
           `
     })
     const albumList = document.querySelector('#albumContainer');
