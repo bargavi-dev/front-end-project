@@ -1,11 +1,28 @@
 body {
+    background-color: #0b3954;
     background-image: url("https://images.pexels.com/photos/159472/headphones-instagram-video-games-razer-159472.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
+    background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
-    background-color: #0B3954;
 }
 
 h1 {
-    color: #FF5A5F;
-    text-align: right;
+    color: #ff5a5f;
+    margin: 20px;
+    text-decoration: underline;
+}
+
+h2 {
+    color: #ff5a5f;
+    margin: 20px;
+    text-decoration: underline;
+}
+
+p {
+    color: #087e8b;
+    margin: 20px;
+}
+
+span {
+    color: #c81d25;
 }
