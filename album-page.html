@@ -8,25 +8,30 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="album-page.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link href="//fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
     <title>Album</title>
   </head>
   <body>
     <!-- <div id="btn">
-        <div class="center-con">
-            <div class="round">
-                <div id="cta">
-                    <span class="arrow primera next "></span>
-                    <span class="arrow segunda next "></span>
-                </div>
-            </div>
+      <div class="center-con">
+        <div class="round">
+          <div id="cta">
+            <span class="arrow primera next "></span>
+            <span class="arrow segunda next "></span>
+          </div>
         </div>
+      </div>
     </div> -->
     <!-- back button -->
     <div id="back-btn">
-        <a href="./BrowseGenre.html"><svg width="2.5em" height="2.5em" viewBox="0 0 16 16" class="bi bi-arrow-left-circle-fill" fill="white" xmlns="http://www.w3.org/2000/svg"  >
+      <a href="./BrowseGenre.html"><svg width="2.5em" height="2.5em" viewBox="0 0 16 16" class="bi bi-arrow-left-circle-fill" fill="white" xmlns="http://www.w3.org/2000/svg"  >
         <path fill-rule="evenodd" d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-4.5.5a.5.5 0 0 0 0-1H5.707l2.147-2.146a.5.5 0 1 0-.708-.708l-3 3a.5.5 0 0 0 0 .708l3 3a.5.5 0 0 0 .708-.708L5.707 8.5H11.5z"/>
       </svg></a>
     </div>
+    
+<div id='sidebar-placeholder'></div>
+
     <!-- Entire card container -->
     <div id = "main" class="container">
         
@@ -44,5 +49,6 @@
         $('.arrow').toggleClass('bounceAlpha');
     });</script>
     <script src="album-page.js"></script>
+    <script src="navbar.js"></script>
   </body>
 </html>
