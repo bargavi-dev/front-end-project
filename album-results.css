@@ -1,0 +1,125 @@
+body {
+    background: linear-gradient(to right, #087E8B, #BFD7) ;
+  }
+
+.container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    
+}
+.card img {
+    margin-top: 7%;
+    height: 45%;
+    width: 70%;
+    align-self: center;
+    border-radius: 15px;
+    
+}
+.card{
+    margin-top: 2%;
+    margin-bottom: 10%;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px !important;
+}
+
+.card-link {
+  margin-left: 26%;
+  border-radius: 15px;
+ 
+}
+
+
+
+#back-btn{
+    padding-right: 2px;
+    margin-top: 2%;
+    margin-left: 2%;
+    display: flex;
+
+}
+
+
+
+.center-con {
+    display: flex;
+    margin-top: 2%;
+    margin-left: 2%;
+   
+}
+
+#description{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+
+@media only screen and (max-width: 531px) {
+    .card {
+        width: 80% !important;
+        height: 50% !important;
+    }
+    #btn2{
+        margin-left: 16%;
+        margin-top: 10px;
+    }
+  }
+@media only screen and (min-width: 532px) and (max-width: 767px) {
+    .card-link {
+        margin-left: 15%;
+      }
+
+  }
+@media only screen and (min-width: 500px) and (max-width: 531px) {
+    .card-link {
+        margin-left: 35%;
+      }
+    #btn2{
+        margin-left: 28.5%;
+
+    }
+  }
+@media only screen and (min-width: 425px) and (max-width: 435px) {
+    .card-link {
+        margin-left: 30%;
+      }
+    #btn2{
+        margin-left: 21.5%;
+    }
+  }
+@media only screen and (min-width: 435px) and (max-width: 499px) {
+    .card-link {
+        margin-left: 30%;
+      }
+    #btn2{
+        margin-left: 23.5%;
+    }
+  }
+@media only screen and (min-width: 400px) and (max-width: 425px) {
+    .card-link {
+        margin-left: 25%;
+      }
+    #btn2{
+        margin-left: 15.5%;
+    }
+  }
+@media only screen and (max-width: 767px) {
+    .card {
+        width: 80% !important;
+    }
+  }
+
+@media only screen and (max-width: 991px) {
+    .card {
+        width: 80% !important;
+    }
+  }
+@media only screen and (min-width: 1200px) {
+    .card {
+        width: 50% !important;
+    }
+  }

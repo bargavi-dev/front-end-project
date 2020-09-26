@@ -44,9 +44,9 @@ function renderMusic(musicData){
         
         return `
         <div class="card results col-3" style="width: 18rem;">
-        <a href="http://www.spotify.com">
+        <a href="./album-results.html?id=${currentArtist.id}" >
             <div class="card-body">
-                <h5 class="card-title">${currentArtist.name}</h5>
+                <h5 class="card-title" data-id="${currentArtist.id}">${currentArtist.name}</h5>
                 <p class="card-text">${currentArtist.country}</p>
                 ${tags}
             </div>
@@ -72,6 +72,7 @@ function renderMusic(musicData){
 
 
 
+
 $( window ).on( "load", function() {  
     const myForm = document.querySelector('#search-form');
     myForm.addEventListener('submit', function(e){
@@ -81,34 +82,17 @@ $( window ).on( "load", function() {
         console.log(query)
         
         fetch(`https://musicbrainz.org/ws/2/artist/?query=${query}&limit=10`, {
-        headers: {
-            'Accept': 'application/json'
-        },
-    })
-    .then(res => res.json())
-    .then(data => {
-        // search results
-        console.log(data.artists);
-
-        renderMusic(data.artists);
-        
-
-        // get id of first search result
-        const artistId = data.artists[0].id
-        
-        // fetch(`https://musicbrainz.org/ws/2/artist/${artistId}?inc=releases`, {
-        //     headers: {
-        //         'Accept': 'application/json'
-        //     },
-        // })
-        // .then(res => res.json())
-        // .then(musicData => {
-        //     // details for all artist releases
-        //     console.log(artistData.releases);
-        //     })
-
+            headers: {
+                'Accept': 'application/json'
+            },
         })
-        
-    })
+        .then(res => res.json())
+        .then(data => {
+            // search results
+            renderMusic(data.artists);
+
+            })    
+        })   
 })
+
 
