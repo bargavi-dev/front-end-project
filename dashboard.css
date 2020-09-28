@@ -209,3 +209,13 @@ img {vertical-align: middle;}
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
 }
+
+/* styling for your music page */
+
+.your-music-container{
+  display: flex;
+  justify-content: left;
+  width: 100%;
+  height: 100%;
+  
+}
