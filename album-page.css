@@ -6,10 +6,10 @@ body {
 
 .container{
     display: flex;
-    justify-content: center;
+    justify-items: center;
     width: 100%;
     height: 100%;
-    
+    justify-content: center;
 }
 .card img {
     margin-top: 7%;
@@ -20,12 +20,14 @@ body {
     
 }
 .card{
+    justify-content: center;
     margin-top: 2%;
     margin-bottom: 10%;
     display: flex;
-    justify-content: center;
     background-color: rgb(255, 255, 255);
     border-radius: 30px !important;
+    align-content: center;
+    
 }
 
 .card-link {
@@ -42,6 +44,8 @@ body {
 
 .card-body{
   display: flex;
+  justify-content: center;
+  align-content: center;
 }
 
 #d-btn{
