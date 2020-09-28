@@ -19,8 +19,10 @@ h2 {
 }
 
 p {
-    color: #087e8b;
+    color: #86cdd4;
     margin: 20px;
+    padding: 20px;
+    background-color: rgba(0,0,0, .7) ;
 }
 
 span {
