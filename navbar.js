@@ -11,7 +11,6 @@ const html = `
     <a href="dashboard.html">Home</a>
     <a href="AboutService.html">About</a>
     <a href="BrowseGenre.html">Browse by Artist</a>
-    <a href="album-results.html">Browse by Album</a>
     <a href="your-music.html">Your Music</a>
     <a href="#">Contact</a>
 </div>`;
