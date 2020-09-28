@@ -1,8 +1,9 @@
 
 function renderAlbums(albumData){
     const listofAlbums = albumData.map((currentAlbum) => {
-        if(currentAlbum.country == 'XW'){
-
+        
+        if(currentAlbum.country == 'XW' && {'currentAlbum':"cover-art-archive"}){
+            
         return `
         <a id="albums-listed" href="./album-page.html?id=${currentAlbum.id}"><li class="list-group-item">${currentAlbum.title}
         (${currentAlbum.date.slice(0,4)})</li></a>
