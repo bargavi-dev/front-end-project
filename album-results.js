@@ -1,4 +1,5 @@
 
+let albumData = []
 function renderAlbums(albumData){
     const listofAlbums = albumData.map((currentAlbum) => {
         
@@ -24,9 +25,10 @@ $(window).on("load", function () {
             },
         })
         .then(res => res.json())
-        .then(albumData => {
+        .then(data => {
             // details for all artist releases
-            console.log(albumData.releases);
-            renderAlbums(albumData.releases)
+            albumData = data.releases
+            console.log(data.releases);
+            renderAlbums(data.releases)
         })
 })

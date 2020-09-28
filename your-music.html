@@ -2,8 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Document</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="dashboard.css"/>
     <link rel="stylesheet" href="navbar.css"/>
     <link href="//fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
@@ -15,25 +17,28 @@
     <div id="sidebar-placeholder"></div>
 
   <div>
-      <h1 class="hero-text-two">Heard that!</h1>
+      <h1 class="hero-text-two">
+        Heard
+        that!
+      </h1>
 
   </div>
     <!--------------slide show--------------->
     <div class="slideshow-container">
         
-        <div class="mySlides fade">
+        <div class="mySlides">
             <div class="numbertext">1 / 3</div>
             <img src="images/pink-hair-woman-singing.jpeg" style="width:100%">
             <!-- <div class="text"></div> -->
         </div>
         
-        <div class="mySlides fade">
+        <div class="mySlides">
             <div class="numbertext">2 / 3</div>
             <img src="images/djing2.jpeg" style="width:100%">
             <!-- <div class="text">Caption Two</div> -->
         </div>
         
-        <div class="mySlides fade">
+        <div class="mySlides">
             <div class="numbertext">3 / 3</div>
             <img src="images/pexels-photo-1135995.jpeg" style="width:100%">
             <!-- <div class="text">Caption Three</div> -->
@@ -49,6 +54,10 @@
         <span class="dot" onclick="currentSlide(1)"></span> 
         <span class="dot" onclick="currentSlide(2)"></span> 
         <span class="dot" onclick="currentSlide(3)"></span> 
+    </div>
+<!-- this contains the code for the music that is saved -->
+    <div class="your-music-container">
+
     </div>
 
     <!-------javascript---------->
@@ -90,5 +99,6 @@
     }
 </script>
 <script src="navbar.js"></script>
+<script src="your-music.js"></script>
 </body>
 </html>
